@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FirstMavenSuite" duration-ms="94523" started-at="2017-02-14T09:20:06Z" finished-at="2017-02-14T09:21:40Z">
+    <groups>
+    </groups>
+    <test name="FirstMavenModule" duration-ms="94523" started-at="2017-02-14T09:20:06Z" finished-at="2017-02-14T09:21:40Z">
+      <class name="com.TestMavenArchetype.FirstModule.Day2">
+        <test-method status="PASS" signature="lauchWebDriver()[pri:0, instance:com.TestMavenArchetype.FirstModule.Day2@10f1802]" name="lauchWebDriver" is-config="true" duration-ms="15391" started-at="2017-02-14T14:51:17Z" finished-at="2017-02-14T14:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchWebDriver -->
+        <test-method status="PASS" signature="Day2Test()[pri:0, instance:com.TestMavenArchetype.FirstModule.Day2@10f1802]" name="Day2Test" duration-ms="7062" started-at="2017-02-14T14:51:32Z" finished-at="2017-02-14T14:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day2Test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.TestMavenArchetype.FirstModule.Day2@10f1802]" name="afterMethod" is-config="true" duration-ms="1068" started-at="2017-02-14T14:51:39Z" finished-at="2017-02-14T14:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Day2Test status=SUCCESS method=Day2.Day2Test()[pri:0, instance:com.TestMavenArchetype.FirstModule.Day2@10f1802] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.TestMavenArchetype.FirstModule.Day2 -->
+      <class name="com.TestMavenArchetype.FirstModule.Day1">
+        <test-method status="PASS" signature="lauchWebDriver()[pri:0, instance:com.TestMavenArchetype.FirstModule.Day1@10b0854]" name="lauchWebDriver" is-config="true" duration-ms="56179" started-at="2017-02-14T14:50:06Z" finished-at="2017-02-14T14:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchWebDriver -->
+        <test-method status="PASS" signature="Day1Test()[pri:0, instance:com.TestMavenArchetype.FirstModule.Day1@10b0854]" name="Day1Test" duration-ms="7738" started-at="2017-02-14T14:51:02Z" finished-at="2017-02-14T14:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Day1Test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.TestMavenArchetype.FirstModule.Day1@10b0854]" name="afterMethod" is-config="true" duration-ms="6992" started-at="2017-02-14T14:51:10Z" finished-at="2017-02-14T14:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Day1Test status=SUCCESS method=Day1.Day1Test()[pri:0, instance:com.TestMavenArchetype.FirstModule.Day1@10b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.TestMavenArchetype.FirstModule.Day1 -->
+    </test> <!-- FirstMavenModule -->
+  </suite> <!-- FirstMavenSuite -->
+</testng-results>

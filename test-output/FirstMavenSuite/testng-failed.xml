@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FirstMavenSuite]">
+  <test name="FirstMavenModule(failed)">
+    <classes>
+      <class name="com.TestMavenArchetype.FirstModule.Day1">
+        <methods>
+          <include name="lauchWebDriver"/>
+          <include name="Day1Test"/>
+        </methods>
+      </class> <!-- com.TestMavenArchetype.FirstModule.Day1 -->
+      <class name="com.TestMavenArchetype.FirstModule.Day2">
+        <methods>
+          <include name="Day2Test"/>
+        </methods>
+      </class> <!-- com.TestMavenArchetype.FirstModule.Day2 -->
+    </classes>
+  </test> <!-- FirstMavenModule(failed) -->
+</suite> <!-- Failed suite [FirstMavenSuite] -->

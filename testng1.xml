@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FirstMavenSuite">
+  <test name="FirstMavenModule">
+    <classes>
+      <class name="com.TestMavenArchetype.FirstModule.Day1"/>
+      <class name="com.TestMavenArchetype.FirstModule.Day2"/>
+    </classes>
+  </test> <!-- FirstMavenModule -->
+</suite> <!-- FirstMavenSuite -->
